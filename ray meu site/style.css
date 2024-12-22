@@ -1,0 +1,172 @@
+/* Resetando algumas configurações padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Título destacado com imagem de fundo */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Trecho de texto com fundo colorido */
+.texto-destaque {
+    background-color: #e74c3c;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.texto-destaque p {
+    font-size: 1.2rem;
+}
+
+/* Botão com link */
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta .btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.cta .btn:hover {
+    background-color: #c0392b;
+}
+
+/* Imagens com descrições */
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.imagem {
+    width: 45%;
+    text-align: center;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.imagem p {
+    margin-top: 10px;
+}
+
+/* Vídeo */
+.video {
+    text-align: center;
+    padding: 40px;
+}
+
+.video iframe {
+    width: 80%;
+    height: 400px;
+}
+
+/* Mapa de Localização */
+.mapa {
+    text-align: center;
+    padding: 40px;
+}
+
+.mapa iframe {
+    width: 80%;
+    height: 400px;
+    border: 0;
+}
+
+/* Formulário */
+.formulario {
+    text-align: center;
+    padding: 40px;
+    background-color: #ecf0f1;
+}
+
+.formulario input, .formulario textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.formulario button:hover {
+    background-color: #c0392b;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
